@@ -1,10 +1,31 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 2021.04.21., 14:23:26
-    Author     : Dóri
-*/
+@charset "utf-8";
 
+header {
+background-color: orange;
+}
+nav {
+background-color: aquamarine;
+}
+article {
+background-color: bisque;
+}
+aside {
+background-color: lightskyblue;
+}
+footer {
+background-color: lightpink;
+}
+section {
+border: 1px solid gray;
+background-color: antiquewhite;
+}
+ul {
+list-style-type: none;
+padding: 5px;
+}
+li {
+padding-top: 2px;
+}
+#pszoveg {
+color: plum;
+}
