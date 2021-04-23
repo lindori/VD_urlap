@@ -43,8 +43,10 @@ and open the template in the editor.
                             </fieldset> 
                     <br>
                     <fieldset>
-                        <label for="weboldal">Weboldal</label>
-                        <input type="text" name="weboldal" id="weboldal" placeholder="valaki@vmi.hu" title="szerepelnie kell egy @" ><br>
+                        <div class="jobb">
+                        <label  for="weboldal">Weboldal</label>
+                        <input  type="text" name="weboldal" id="weboldal" placeholder="valaki@vmi.hu" title="szerepelnie kell egy @" ><br>
+                        </div>
                          <label for="prioritas">Prioritas</label>
                             <select >
       <option value="gyarto1">Alacsony</option>
@@ -52,12 +54,15 @@ and open the template in the editor.
       <option value="gyarto3">Magas</option>
 
                             </select> <br>
-                         <label for="szoveg">Üzenet</label><br>
+ <div class="jobb">
+                         <label for="szoveg" class="nelegyelott">Üzenet</label>
   <textarea name="szoveg" id="szoveg" rows="5" cols="60" 
       placeholder="Üzenet szövege..." required></textarea>
+ </div>
+                    </fieldset>
 
-                    
-                    <input type="submit" name="Küld">
+                    <input type="button" name="kuld" id="kuld" value="Küld" class="jobb">
+                    <input type="button" name="törlés" value="Törlés" class="bal">
                        
             </article>
             <aside>
@@ -68,7 +73,6 @@ and open the template in the editor.
                     </p>
 
                 </section>
-                <br>
                 <section>
                    <h3>Űrlap adatok</h3>
                 <p id="pszoveg"> Itt jelennek majd meg a z űrlapon megadott adatok  </p>

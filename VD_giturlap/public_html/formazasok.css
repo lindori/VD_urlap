@@ -18,6 +18,8 @@ background-color: lightpink;
 section {
 border: 1px solid gray;
 background-color: antiquewhite;
+margin: 15px;
+padding: 15px;
 }
 ul {
 list-style-type: none;
@@ -30,5 +32,13 @@ padding-top: 2px;
 color: plum;
 }
 .urlapelem{
-float: left;
+float:right;
+text-align: right;
+}
+fieldset {
+border-radius: 10px;
+}
+input {
+width: 400px;
+height: 25px; 
 }

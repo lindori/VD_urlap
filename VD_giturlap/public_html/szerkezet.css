@@ -1,17 +1,17 @@
 @charset "utf-8";
 
-body
 main{
  display:grid;
  grid-template-areas:
      'h h h h h h'
-     'n a a a a as'
-     'n a a a a as'
+     'n a a a as as'
+     'n a a a as as'
      'f f f f f f';
  grid-column-gap: 15px;
  grid-row-gap: 15px;
  max-width: 58%;
  margin: auto;
+ font-size: 25px;
 
      
 }
@@ -42,4 +42,12 @@ nav{
     grid-area:n;
     border: 1px solid gray;
     padding: 15px;
+}
+.bal {
+float: left;
+text-align: left;
+}
+.jobb {
+float: right;  
+text-align: right;
 }
