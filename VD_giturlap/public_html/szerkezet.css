@@ -8,9 +8,9 @@ main{
      'n a a a a as'
      'n a a a a as'
      'f f f f f f';
- grid-column-gap: 20px;
- grid-row-gap: 20px;
- max-width: 70%;
+ grid-column-gap: 15px;
+ grid-row-gap: 15px;
+ max-width: 58%;
  margin: auto;
 
      
